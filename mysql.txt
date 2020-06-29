@@ -5,6 +5,8 @@ mysql命令行学习
 4. mysql -u root -p    ------登录mysql数据库
 
 show databases;
+create database stock;
+create table tableName(col1 INT, clo2 CHAR, loc3 INT)
 use dbname;
 show tables;
 select * from tablename;
